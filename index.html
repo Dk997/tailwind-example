@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>tailwind</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="bg-blue-700 p-4 flex justify-between items-center">
+        <!-- left -->
+        <div class ="flex items-center">
+           <img src="https://cdn3.iconfinder.com/data/icons/multimedia-solid-version/32/camera-picture-image-take_a_picture--256.png" alt ="Logo" width="30" class="mr-2">
+              <a href ="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100">Home</a>
+               <a href ="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100">About</a>
+        </div>
+               <!-- Right -->
+            <div class="hidden md:block">
+        <a href ="#" class="inline-block p-2 text-indigo-200 hover:text-indigo-100">Login</a>
+        <a href ="#" class="inline-block py-2 px-4 bg-yellow-400 rounded transistion ease-in duration-150 hover:bg-yellow-200 hover:text-blue-600">Sign up</a>
+      </div>
+    </div>
+<!-- Hero section -->
+      <div class ="md:flex justify-between bg-purple-900 text-indigo-300">
+    <!-- left -->
+    <div class="md:w-1/2 mb-15 md:mb-0">
+        <h2 class="text-3xl md:text-2xl lg:text-5xl text-white m-6">Welcome to Camera section</h2>
+        <p class ="mb-5">Next gen advanced framework</p>
+
+        <a href ="#" class="inline-block p-2 text-indigo-200 bg-blue-300 text-black-250">Learn more..</a>
+        <a href ="#"class ="inline-block py-2 px-2 bg-green-600 rounded transistion ease in duration-200 hover:bg-purple-200">Get Started</a>
+    </div>
+    <!-- right -->
+    <div class ="md:w-1/3">
+       <img src= "https://www.sony.co.in/image/b2e494fbba7667cdbe3dbd60e7f7ff50?fmt=jpeg&wid=580" alt="hero image" width="400" class="m-5">
+    </div>
+ </div>
+ <!-- features -->
+ <div class="md:flex py-16 px-10 bg-indigo-800 text-indigo-200 text-center">
+   <div class = "mr-2 text-center">
+     <img src ="https://techcrunch.com/wp-content/uploads/2019/09/Sony-RX100-VII-1.jpg" alt="hero image" class="w-full mb-4 rounded border-solid border-2 border-indigo-400" >
+    <p class="text-white text-2xl">lens cam</p>
+  </div>
+  <div  class="mr-2 text-center">
+    <img src ="https://5.imimg.com/data5/UM/HB/MY-13169908/sony-digital-camera-500x500.jpg" alt="" class="w-full mb-4 rounded border-solid border-2 border-indigo-400" width="800">
+    <p class="text-white text-2xl">camera</p>
+ </div>
+ <div class="mr-2 text-center">
+    <img src="https://static.toiimg.com/thumb/msid-87140434,width-1070,height-580,imgsize-18722,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg" class="w-full mb-4 rounded border-solid border-2 border-indigo-400"width="400">
+    <p class="text-white text-2xl">dslr cam</p>
+ </div>
+  <div  class="mr-2 text-center">
+    <img src="https://techistore.com/wp-content/uploads/2021/06/Sony-Alpha-1iv.jpg" class="w-full mb-4 rounded border-solid border-2 border-indigo-400 mt-10" width="400" >
+    <p class="text-white text-2xl">sony alpha cam</p>
+   </div>
+</div>
+ <!-- footer and News letter -->
+  <div class ="p-10 bg-indigo-900 text-indigo-400 flex justify-between">
+        <!-- left -->
+        <div class="md:w:1/2">
+            <h3 class="text-lg mb-2">Join the news letter</h3>
+            <form class ="flex">
+                <input type="email" class ="w-full rounded-l py-3 px-4 outline-none focus:bg-indigo-200">
+                <button class=" bg-green-300 hover:bg-red-400 px-4 rounded-r text-red-800">join</button>
+            </form>
+        </div>
+        <!-- right -->
+        <div class="flex-items-center">
+            <p class ="text-white">Copyright &copy; 2021 Tailwind Demo</p>
+
+        </div>
+
+  </div>
+
+</body>
+</html>
